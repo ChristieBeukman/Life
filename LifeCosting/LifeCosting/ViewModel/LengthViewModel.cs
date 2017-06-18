@@ -17,6 +17,7 @@ namespace LifeCosting.ViewModel
         #region Properties
         private List<LengthModel> viewLengthModel;
         private LengthModel selectedLength;
+        
 
         public List<LengthModel> ViewLengthModel
         {
@@ -59,6 +60,9 @@ namespace LifeCosting.ViewModel
 
         #region Methods
 
+        /// <summary>
+        /// Get the Length data for the datacontext 
+        /// </summary>
         private void GetLengthCost()
         {
             var Query = (from l in entity.tblLengthCosts
@@ -76,6 +80,11 @@ namespace LifeCosting.ViewModel
                              PricePerMeter = l.PricePerMeter
                          }).ToList();
             this.viewLengthModel = Query;
+        }
+
+        private void AddLengthRecord()
+        {
+
         }
         #endregion
     }

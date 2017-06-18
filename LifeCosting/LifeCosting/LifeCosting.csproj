@@ -79,9 +79,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\LengthModel.cs" />
+    <Compile Include="Model\MaterialsModel.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\Command.cs" />
     <Compile Include="ViewModel\LengthViewModel.cs" />
+    <Compile Include="ViewModel\MaterialViewModel.cs" />
     <Compile Include="ViewModel\NotifyingProperty.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

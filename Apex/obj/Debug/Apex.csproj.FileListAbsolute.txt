@@ -36,3 +36,7 @@ D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.Properties
 D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.dll
 D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.pdb
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\CircularProgressBar.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\CrossButton.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\DragAndDropHost.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\PivotControl.baml

@@ -20,6 +20,15 @@
                       SelectedIndex="0" SelectedItem="{Binding SelectedLength}"
                       DisplayMemberPath="Name" />
             <TextBox Text="{Binding SelectedLength.MaterialID, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.Name, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.MaterialID, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.LengthPerPiece, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.NoPieces, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.PricePerMeter, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.TotalCostPieces, Source={StaticResource LenghtViewModel}}" />
+            <TextBox Text="{Binding SelectedLength.TotalLength, Source={StaticResource LenghtViewModel}}" />
+
+
         </StackPanel>
     </Grid>
 </Window>
