@@ -41,9 +41,11 @@ namespace LifeCosting.ViewModel
 
             set
             {
-                selectedLength = value;
-                NotifyPropertyChanged("SelectedLength");
-
+                if (selectedLength != null)
+                {
+                    selectedLength = value;
+                    NotifyPropertyChanged("SelectedLength");
+                }
             }
         }
         #endregion
