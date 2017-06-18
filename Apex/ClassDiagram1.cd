@@ -1,2 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Apex.MVVM.AsynchronousCommand">
+    <Position X="1.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAgYAAQIAAAAAAgAAAAAQAAigAAAAIEAA=</HashCode>
+      <FileName>MVVM\AsynchronousCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Apex.MVVM.Command" Collapsed="true">
+    <Position X="2" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAECAAAAAEQAAABAAAAAAAgAACAAQgAgAEg=</HashCode>
+      <FileName>MVVM\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Apex.MVVM.CommandEventArgs">
+    <Position X="2" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Apex.MVVM.CancelCommandEventArgs">
+    <Position X="1.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Apex.MVVM.NotifyingProperty">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>MVVM\NotifyingProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Apex.MVVM.ViewModel" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAoAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Delegate Name="Apex.MVVM.CommandEventHandler">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Command.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Apex.MVVM.CancelCommandEventHandler">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Command.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

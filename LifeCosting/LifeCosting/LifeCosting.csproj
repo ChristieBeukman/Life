@@ -78,6 +78,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\LengthModel.cs" />
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\Command.cs" />
+    <Compile Include="ViewModel\LengthViewModel.cs" />
+    <Compile Include="ViewModel\NotifyingProperty.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,15 +91,41 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataLayer\NewdbModel.Context.cs">
+    <Compile Include="Model\DataLayer\NewdbModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NewdbModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DataLayer\NewdbModel.Designer.cs">
+    <Compile Include="Model\DataLayer\NewdbModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\NewdbModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NewdbModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblAreaCost.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblBussinessCost.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblConsumable.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblLengthCost.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblMaterial.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblMaterialType.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataLayer\tblVolumeCost.cs">
+      <DependentUpon>NewdbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -119,11 +150,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="DataLayer\NewdbModel.edmx">
+    <EntityDeploy Include="Model\DataLayer\NewdbModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>NewdbModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="DataLayer\NewdbModel.edmx.diagram">
+    <None Include="Model\DataLayer\NewdbModel.edmx.diagram">
       <DependentUpon>NewdbModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
@@ -136,9 +167,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataLayer\NewdbModel.Context.tt">
+    <Content Include="Model\DataLayer\NewdbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NewdbModel.Context.cs</LastGenOutput>
+      <DependentUpon>NewdbModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model\DataLayer\NewdbModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NewdbModel.edmx</DependentUpon>
+      <LastGenOutput>NewdbModel.cs</LastGenOutput>
     </Content>
     <Content Include="dbNew.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -148,10 +185,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
