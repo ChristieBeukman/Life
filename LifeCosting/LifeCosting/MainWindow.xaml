@@ -1,15 +1,20 @@
-﻿<Window x:Class="LifeCosting.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:LifeCosting.ViewModel"
         xmlns:local="clr-namespace:LifeCosting"
+        xmlns:view="clr-namespace:LifeCosting.Views"
+    
+        xmlns:Views="clr-namespace:LifeCosting.Views" x:Class="LifeCosting.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525"
         >
     <Window.Resources>
         <vm:LengthViewModel x:Key="LenghtViewModel"/>
+        <vm:LengthViewModel x:Key="MaterialViewModel"/>
+
     </Window.Resources>
     <Window.DataContext>
         <Binding Mode="OneWay" Source="{StaticResource LenghtViewModel}"/>
@@ -27,8 +32,8 @@
             <TextBox Text="{Binding SelectedLength.PricePerMeter, Source={StaticResource LenghtViewModel}}" />
             <TextBox Text="{Binding SelectedLength.TotalCostPieces, Source={StaticResource LenghtViewModel}}" />
             <TextBox Text="{Binding SelectedLength.TotalLength, Source={StaticResource LenghtViewModel}}" />
-
-
+            <Button Content="Material"/>
+            <ComboBox ItemsSource="{Binding ViewLengthModel, Source={StaticResource MaterialViewModel}}" DisplayMemberPath="Name"  />
         </StackPanel>
     </Grid>
 </Window>

@@ -1,3 +1,9 @@
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\Views\MaterialView.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\App.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting_Content.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting_MarkupCompile.cache
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting_MarkupCompile.lref
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\Debug\dbNew.mdf
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\Debug\dbNew_log.ldf
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\Debug\LifeCosting.exe.config
@@ -7,16 +13,11 @@ D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\De
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\Debug\EntityFramework.SqlServer.dll
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\Debug\EntityFramework.xml
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\bin\Debug\EntityFramework.SqlServer.xml
-D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\MainWindow.g.cs
-D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\App.g.cs
-D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting_Content.g.cs
-D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting_MarkupCompile.cache
-D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting_MarkupCompile.lref
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\MainWindow.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\Views\MaterialView.baml
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting.g.resources
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting.Properties.Resources.resources
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting.exe
 D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\LifeCosting.pdb
-D:\Documents\Visual Studio 2017\Projects\Git\Life\LifeCosting\LifeCosting\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -12,23 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using LifeCosting.Views;
 
-namespace LifeCosting
+namespace LifeCosting.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MaterialView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MaterialView : UserControl
     {
-        public MainWindow()
+        public MaterialView()
         {
-            InitializeComponent();
-        }
-
-        private void MaterialView_Loaded(object sender, RoutedEventArgs e)
-        {
-
+            
         }
     }
 }
