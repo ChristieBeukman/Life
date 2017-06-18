@@ -3,10 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:LifeCosting.ViewModel"
         xmlns:local="clr-namespace:LifeCosting"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525"
+        >
+    <Window.Resources>
+        <vm:LengthViewModel x:Key="LenghtViewModel"/>
+    </Window.Resources>
+    <Window.DataContext>
+        <Binding Mode="OneWay" Source="{StaticResource LenghtViewModel}"/>
+    </Window.DataContext>
     <Grid>
-        
+        <StackPanel>
+            <ComboBox ItemsSource="{Binding ViewLengthModel}" 
+                      SelectedIndex="0" SelectedItem="{Binding SelectedLength}"
+                      DisplayMemberPath="Name" />
+            <TextBox Text="{Binding SelectedLength.MaterialID, Source={StaticResource LenghtViewModel}}" />
+        </StackPanel>
     </Grid>
 </Window>
