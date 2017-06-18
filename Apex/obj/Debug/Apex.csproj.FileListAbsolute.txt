@@ -17,3 +17,21 @@ D:\Downloads\EagleDownloads\Source_Code\Source Code\Apex\WPF\Apex\obj\Debug\Apex
 D:\Downloads\EagleDownloads\Source_Code\Source Code\Apex\WPF\Apex\obj\Debug\Apex.csproj.GenerateResource.Cache
 D:\Downloads\EagleDownloads\Source_Code\Source Code\Apex\WPF\Apex\obj\Debug\Apex.dll
 D:\Downloads\EagleDownloads\Source_Code\Source Code\Apex\WPF\Apex\obj\Debug\Apex.pdb
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\bin\Debug\Apex.dll
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\bin\Debug\Apex.pdb
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Adorners\AdornerLayer.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Themes\Generic.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Adorners\AdornerLayer.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Controls\CircularProgressBar.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex_MarkupCompile.cache
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex_MarkupCompile.lref
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Controls\CircularProgressBar.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Themes\ResourceDictionaries\CrossButton.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Themes\ResourceDictionaries\DragAndDropHost.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Themes\ResourceDictionaries\PivotControl.baml
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.g.resources
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.Properties.Resources.resources
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.dll
+D:\Documents\Visual Studio 2017\Projects\Git\Life\Apex\obj\Debug\Apex.pdb
