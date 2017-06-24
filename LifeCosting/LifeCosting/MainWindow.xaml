@@ -32,8 +32,7 @@
             <TextBox Text="{Binding SelectedLength.PricePerMeter, Source={StaticResource LenghtViewModel}}" />
             <TextBox Text="{Binding SelectedLength.TotalCostPieces, Source={StaticResource LenghtViewModel}}" />
             <TextBox Text="{Binding SelectedLength.TotalLength, Source={StaticResource LenghtViewModel}}" />
-            <Button Content="Material"/>
-            <ComboBox ItemsSource="{Binding ViewLengthModel, Source={StaticResource MaterialViewModel}}" DisplayMemberPath="Name"  />
+            <Views:MaterialView />
         </StackPanel>
     </Grid>
 </Window>
